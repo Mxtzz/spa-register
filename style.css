@@ -1,0 +1,454 @@
+html {
+    color: #333;
+    background: #fff;
+    overflow-y: scroll;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: PingFang-SC-Regular,Helvetica,"Microsoft Yahei","微软雅黑"!important;
+}
+
+#wrapper {
+    width: 100%;
+}
+
+#head, #content, #foot {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mod-reg {
+    position: relative;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.mod-new-reg-bg {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(./static/passpc-account/img/reg_bg_min.jpg) no-repeat;
+    background-size: cover;
+    background: none\9;
+    *background: 0 0;
+}
+
+.mod-new-reg-bg img {
+    display: block\9;
+    *display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-logo {
+    position: fixed;
+    left: 70px;
+    top: 60px;
+    width: 124.4px;
+    height: 40px;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-logo img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+    .mod-new-reg-wrapper .mod-new-reg-text {
+        display: none;
+    }
+}
+
+.mod-new-reg-wrapper .mod-new-reg-text {
+    position: fixed;
+    left: 195px;
+    top: 314px;
+    color: #fff;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-text h3 {
+    font-size: 54px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-text p {
+    font-size: 32px;
+    letter-spacing: 3.81px;
+    font-weight: 300;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-footer {
+    position: fixed;
+    left: 70px;
+    bottom: 57px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help .mode-new-reg-help-text {
+    filter: alpha(opacity=80);
+    opacity: .8;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help .mod-new-reg-line {
+    display: inline-block;
+    width: 2px;
+    height: 12px;
+    filter: alpha(opacity=78);
+    opacity: .78;
+    margin: 0 12px 0 13px;
+    background: #fff;
+    position: relative;
+    top: 1px;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-help a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mod-new-reg-wrapper .mod-new-reg-footer .mod-new-reg-copyright {
+    filter: alpha(opacity=54);
+    opacity: .54;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 30px;
+}
+
+@media screen and (max-height: 752px) {
+    .mod-new-reg-content {
+        height: 518px;
+        margin-top: -259px;
+    }
+}
+.mod-new-reg-content {
+    position: absolute;
+    right: 139px;
+    top: 50%;
+    width: 480px;
+    height: 518px;
+    margin-top: -259px;
+    *background: #fff;
+    background: #fff;
+    background: rgba(255,255,255,.9);
+    border-radius: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mod-new-reg-content .new-reg-guide-login {
+    margin: 30px 0 0 39px;
+}
+
+.mod-new-reg-content .new-reg-guide-login h3 {
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 4px;
+}
+
+.mod-new-reg-content .new-reg-guide-login p {
+    font-size: 14px;
+    color: #9B9B9B;
+}
+
+.mod-new-reg-content .new-reg-guide-login p span {
+    color: #2e58ff;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 752px) {
+    .tang-pass-reg {
+        padding-top: 40px;
+        overflow: initial;
+    }
+}
+
+.tang-pass-reg {
+    padding-top: 40px;
+}
+
+@media screen and (max-height: 752px) {
+    .tang-pass-reg .pass-form-item {
+        margin-bottom: 20px;
+    }
+}
+.tang-pass-reg .pass-form-item {
+    margin-bottom: 40px;
+}
+.tang-pass-reg .pass-form-item {
+    position: relative;
+    clear: both;
+    margin-bottom: 20px;
+    zoom: 1;
+}
+
+.new-reg-v5 .pass-form-item.pass-form-item-verifyCodeSend {
+    margin-bottom: 0;
+}
+
+.tang-pass-reg .pass-label {
+    font-size: 14px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: right;
+    width: 82px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 15px;
+    font-weight: 200;
+    display: block;
+    float: left;
+}
+
+.tang-pass-reg .pass-text-input-verifyCode {
+    width: 184px!important;
+    margin-right: 9px;
+    float: left;
+}
+.tang-pass-reg .pass-text-input {
+    padding: 11px 10px;
+    max-height: 40px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 321px;
+    color: #000;
+}
+
+.pass-text-input::placeholder {
+    color: #ccc;
+}
+
+.tang-pass-reg .pass-form-item-verifyCode span, .tang-pass-reg .pass-form-item-verifyCodeSend span {
+    float: left;
+    display: block;
+}
+.tang-pass-reg .pass-clearbtn {
+    left: -99999px;
+}
+
+.tang-pass-reg input.pass-button-verifyCodeSend {
+    width: 126px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid #E0E0E0;
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 24px;
+    height: 40px;
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+@media screen and (max-height: 752px) {
+    .tang-pass-reg .pass-generalError, .tang-pass-reg .pass-form-item-verifyCodeSend span.pass-item-error {
+        line-height: 18px;
+    }
+}
+span.pass-item-error {
+    margin-left: 97px;
+    padding: 3px 0 0;
+    color: #F55;
+    background: 0 0;
+    position: absolute;
+    left: 0;
+    top: 42px;
+    line-height: 12px;
+    font-size: 12px;
+}
+
+.new-reg-v5 .pass-item-tip.pass-item-tip-verifyCodeSend {
+    background: 0 0;
+    top: 40px;
+    text-align: left;
+    color: #000;
+    line-height: 17px;
+    margin-left: 0;
+}
+.tang-pass-reg .pass-form-item-verifyCode span, .tang-pass-reg .pass-form-item-verifyCodeSend span {
+    float: left;
+    display: block;
+}
+.tang-pass-reg .pass-item-tip {
+    width: 317px;
+    height: 39px;
+    position: absolute;
+    left: 97px;
+    top: -46px;
+    text-align: center;
+    color: #fff;
+    background: url(./static/passpc-account/img/reg/check-username-bg-2x.png) no-repeat;
+    background-size: 100%;
+}
+.tang-pass-reg .pass-item-tip-verifyCodeSend {
+    padding-top: 2px;
+}
+
+.tang-pass-reg .pass-item-tip-verifyCodeSend {
+    line-height: 18px;
+    color: #999;
+}
+
+.tang-pass-reg .pass-button {
+    display: block;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background-image: none;
+    border-radius: 3px;
+    border: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    -webkit-transition: .3s;
+}
+
+.tang-pass-reg .pass-form-item-submit.pass-form-item-submit-v5 {
+    margin-bottom: 15px;
+    padding-top: 40px;
+    margin-top: 0;
+    left: 41px;
+}
+
+.mod-reg .tang-pass-reg .pass-button-submit {
+    background: #BDCEFC;
+    border-radius: 25px;
+    width: 399px;
+}
+
+.tang-pass-reg .pass-form-item-isAgree {
+    margin-left: 41px;
+    width: 399px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tang-pass-reg .pass-form-item-isAgree label {
+    color: #666;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.tang-pass-reg a {
+    color: #2E58FF;
+    text-decoration: none;
+}
+
+a {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-appearance: none;
+    font-size: 12px;
+}
+
+.tang-pass-reg .new-password-tip {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 12px;
+    left: 413px;
+    background: url(./static/passpc-account/img/reg/pwdtip-2x.png) no-repeat;
+    background-size: 100%;
+}
+
+.tang-pass-reg .new-password-tip:hover {
+    background: url(./static/passpc-account/img/reg/pwdtip-2x-hover.png) no-repeat;
+    background-size: 100%;
+}
+
+.pass-text-input-error {
+    border-color: #F55!important;
+}
+
+.tang-pass-reg .pass-item-error-password {
+    position: absolute;
+    height: 16px;
+    padding: 0;
+    top: 43px;
+    font-size: 12px;
+    color: #F55;
+}
+
+.tang-pass-reg .pass-item-tiptext-userName {
+    padding: 7px 0;
+    font-size: 12px;
+    display: block;
+}
+
+.pass-item-tip-password {
+    padding: 12px;
+    width: 290px;
+    height: 79px;
+    top: -85px;
+    left: 122px;
+    background: url(./static/passpc-account/img/check-pwd-bg-2x.png) no-repeat;
+    background-size: 100%;
+    position: absolute;
+    color: #fff;
+    zoom: 1;
+    z-index: 20;
+}
+
+.pwd-checklist-item {
+    display: block;
+    font-size: 12px;
+}
+
+/* .pass-item-tip-password:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+} */
+
+.pass-item-tiptext {
+    display: block;
+}
+
+.tang-pass-reg .pass-item-succ {
+    left: -28px;
+    top: 2px;
+    background: url(./static/passpc-account/img/setpwd-success-2x.png) no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    position: relative;
+    line-height: 12px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
