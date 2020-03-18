@@ -331,6 +331,7 @@ span.pass-item-error {
 
 .mod-reg .tang-pass-reg .pass-button-submit {
     background: #BDCEFC;
+    /* background: #6666ff; */
     border-radius: 25px;
     width: 399px;
 }
